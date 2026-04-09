@@ -137,7 +137,7 @@ const Navbar = () => {
             </Link> */}
             <Link href="/" className="flex items-center flex-shrink-0">
   <img 
-    src="/gi-france-removebg-preview.png" 
+    src="/cool_logo-removebg-preview.png" 
     alt="GI-SMART Logo" 
       className="h-20 sm:h-20 md:h-20 w-auto object-contain"
   />
@@ -295,7 +295,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between py-4 border-b border-gray-200 bg-white flex-shrink-0">
                   <Link href="/" className="flex items-center mr-auto" onClick={() => setIsMobileMenuOpen(false)}>
                     <img 
-                      src="/gi-france-removebg-preview.png" 
+                      src="/cool_logo-removebg-preview.png" 
                       alt="GI-SMART Logo" 
                       className="h-20 sm:h-20 w-auto object-contain"
                     />
