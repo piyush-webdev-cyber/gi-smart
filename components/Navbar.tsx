@@ -137,9 +137,9 @@ const Navbar = () => {
             </Link> */}
             <Link href="/" className="flex items-center">
   <img 
-    src="/cool_logo-removebg-preview.png" 
+    src="/gi-france-removebg-preview.png" 
     alt="GI-SMART Logo" 
-    className="h-20 w-auto m-0 p-0 object-contain"
+    className="h-24 w-auto m-0 p-0 object-contain"
   />
 </Link>
 
@@ -295,9 +295,9 @@ const Navbar = () => {
                 <div className="flex items-center justify-between px-4 py-4 border-b border-gray-200 bg-white flex-shrink-0">
                   <Link href="/" className="flex items-center gap-2" onClick={() => setIsMobileMenuOpen(false)}>
                     <img 
-                      src="/cool_logo-removebg-preview.png" 
+                      src="/gi-france-removebg-preview.png" 
                       alt="GI-SMART Logo" 
-                      className="h-12 sm:h-16 w-auto object-contain"
+                      className="h-20 sm:h-20 w-auto object-contain"
                     />
                   </Link>
                   <button
