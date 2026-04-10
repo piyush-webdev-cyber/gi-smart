@@ -64,10 +64,10 @@ const WhyChooseGI = () => {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
               whileHover={{ y: -5 }}
-              className="bg-gradient-to-br from-[#f0f8f0] to-white rounded-xl p-4 sm:p-6 md:p-8 border-2 border-[#8b1538]/20 hover:border-[#8b1538] transition-all duration-300"
+              className="bg-gradient-to-br from-white to-[#f0f4ff] rounded-xl p-4 sm:p-6 md:p-8 border-2 border-[#dc2626]/20 hover:border-[#dc2626] transition-all duration-300"
             >
               <div className="mb-3 sm:mb-4">
-                {reason.icon && <reason.icon className="text-3xl sm:text-4xl md:text-5xl text-[#8b1538]" />}
+                {reason.icon && <reason.icon className="text-3xl sm:text-4xl md:text-5xl text-[#dc2626]" />}
               </div>
               <h3 className="text-base sm:text-lg md:text-xl font-bold text-gray-900 mb-2 sm:mb-3">{reason.title}</h3>
               <p className="text-xs sm:text-sm md:text-base text-gray-700 leading-relaxed">{reason.description}</p>
@@ -79,10 +79,10 @@ const WhyChooseGI = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="bg-gradient-to-r from-[#0a1628] to-[#8b1538] rounded-xl p-6 sm:p-8 md:p-10 lg:p-12 text-white text-center"
+          className="bg-gradient-to-r from-[#1e40af] to-[#dc2626] rounded-xl p-6 sm:p-8 md:p-10 lg:p-12 text-white text-center"
         >
           <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 mb-4 sm:mb-6">
-            <FaRocket className="text-3xl sm:text-4xl text-[#ffd700]" />
+            <FaRocket className="text-3xl sm:text-4xl text-white" />
             <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold">
               Your Future Starts Here
             </h3>
@@ -92,19 +92,19 @@ const WhyChooseGI = () => {
           </p>
           <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 text-sm sm:text-base md:text-lg font-semibold">
             <div className="flex items-center justify-center gap-2">
-              <FaStar className="text-base sm:text-lg md:text-xl text-[#ffd700]" />
+              <FaStar className="text-base sm:text-lg md:text-xl text-white" />
               <span>Applications Now Open</span>
             </div>
             <div className="flex items-center justify-center gap-2">
-              <FaGlobe className="text-base sm:text-lg md:text-xl text-[#ffd700]" />
+              <FaGlobe className="text-base sm:text-lg md:text-xl text-white" />
               <span>Choose Your Anchor Campus</span>
             </div>
             <div className="flex items-center justify-center gap-2">
-              <FaMapMarkerAlt className="text-base sm:text-lg md:text-xl text-[#ffd700]" />
+              <FaMapMarkerAlt className="text-base sm:text-lg md:text-xl text-white" />
               <span>Study Across Four Continents</span>
             </div>
             <div className="flex items-center justify-center gap-2">
-              <FaCompass className="text-base sm:text-lg md:text-xl text-[#ffd700]" />
+              <FaCompass className="text-base sm:text-lg md:text-xl text-white" />
               <span>Shape the Future of AI</span>
             </div>
           </div>

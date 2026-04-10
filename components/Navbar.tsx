@@ -143,7 +143,7 @@ const Navbar = () => {
                     <>
                       <button
                         onClick={() => setIsProgramsDropdownOpen(!isProgramsDropdownOpen)}
-                        className="transition-colors duration-300 font-medium text-sm uppercase tracking-wide flex items-center gap-1 text-black hover:text-[#8b1538]"
+                        className="transition-colors duration-300 font-medium text-sm uppercase tracking-wide flex items-center gap-1 text-[#1f2937] hover:text-[#1e40af]"
                       >
                         {link.label}
                       </button>
@@ -164,7 +164,7 @@ const Navbar = () => {
                                     key={item.href}
                                     href={item.href}
                                     onClick={() => setIsProgramsDropdownOpen(false)}
-                                    className="block py-2 text-gray-900 font-bold hover:text-[#8b1538] transition-colors text-sm"
+                                    className="block py-2 text-[#1f2937] font-bold hover:text-[#1e40af] transition-colors text-sm"
                                   >
                                     {item.label}
                                   </Link>
@@ -174,8 +174,8 @@ const Navbar = () => {
                               {/* Right Column - Undergraduate Overview */}
                               <div>
                                 <div className="flex items-center gap-2 mb-3">
-                                  <div className="w-2 h-2 bg-purple-600"></div>
-                                  <h3 className="text-gray-800 font-semibold text-sm uppercase tracking-wide">
+                                  <div className="w-2 h-2 bg-[#dc2626]"></div>
+                                  <h3 className="text-[#1f2937] font-semibold text-sm uppercase tracking-wide">
                                     UNDERGRADUATE OVERVIEW
                                   </h3>
                                 </div>
@@ -184,7 +184,7 @@ const Navbar = () => {
                                     key={item.href}
                                     href={item.href}
                                     onClick={() => setIsProgramsDropdownOpen(false)}
-                                    className="block py-2 text-gray-900 font-bold hover:text-[#8b1538] transition-colors text-sm"
+                                    className="block py-2 text-[#1f2937] font-bold hover:text-[#1e40af] transition-colors text-sm"
                                   >
                                     {item.label}
                                   </Link>
@@ -198,7 +198,7 @@ const Navbar = () => {
                   ) : (
                     <Link
                       href={link.href}
-                      className="transition-colors duration-300 font-medium text-sm uppercase tracking-wide text-black hover:text-[#8b1538]"
+                      className="transition-colors duration-300 font-medium text-sm uppercase tracking-wide text-[#1f2937] hover:text-[#1e40af]"
                     >
                       {link.label}
                     </Link>
@@ -213,7 +213,7 @@ const Navbar = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-[#ffd700] text-black px-6 py-2 rounded font-semibold text-sm hover:bg-[#ffed4e] transition-colors"
+                  className="bg-[#dc2626] text-white px-6 py-2 rounded font-semibold text-sm hover:bg-[#b91c1c] transition-colors"
                 >
                   APPLY NOW
                 </motion.button>
@@ -222,7 +222,7 @@ const Navbar = () => {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-white text-black px-6 py-2 rounded font-semibold text-sm border-2 border-[#ffd700] hover:bg-gray-50 transition-colors"
+                  className="bg-white text-[#1f2937] px-6 py-2 rounded font-semibold text-sm border-2 border-[#1e40af] hover:bg-[#1e40af] hover:text-white transition-colors"
                 >
                   CONTACT US
                 </motion.button>
@@ -235,22 +235,22 @@ const Navbar = () => {
                 e.stopPropagation()
                 setIsMobileMenuOpen(!isMobileMenuOpen)
               }}
-              className="md:hidden p-2 transition-colors duration-300 relative z-50 text-black"
+              className="md:hidden p-2 transition-colors duration-300 relative z-50 text-[#1f2937]"
               aria-label="Toggle menu"
             >
               <div className="w-6 h-6 flex flex-col justify-center space-y-1.5">
                 <span
-                  className={`block h-0.5 transition-all duration-300 bg-black ${
+                  className={`block h-0.5 transition-all duration-300 bg-[#1f2937] ${
                     isMobileMenuOpen ? 'rotate-45 translate-y-2' : ''
                   }`}
                 />
                 <span
-                  className={`block h-0.5 transition-all duration-300 bg-black ${
+                  className={`block h-0.5 transition-all duration-300 bg-[#1f2937] ${
                     isMobileMenuOpen ? 'opacity-0' : ''
                   }`}
                 />
                 <span
-                  className={`block h-0.5 transition-all duration-300 bg-black ${
+                  className={`block h-0.5 transition-all duration-300 bg-[#1f2937] ${
                     isMobileMenuOpen ? '-rotate-45 -translate-y-2' : ''
                   }`}
                 />
@@ -294,7 +294,7 @@ const Navbar = () => {
                   </Link>
                   <button
                     onClick={() => setIsMobileMenuOpen(false)}
-                    className="p-2 text-gray-800 hover:text-gray-600 transition-colors"
+                    className="p-2 text-[#1f2937] hover:text-[#dc2626] transition-colors"
                     aria-label="Close menu"
                   >
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -315,13 +315,13 @@ const Navbar = () => {
                             onClick={() => setMobileProgramsOpen(!mobileProgramsOpen)}
                             className="w-full flex items-center justify-between px-4 py-4 text-left hover:bg-gray-50 transition-colors bg-white"
                           >
-                            <span className="text-gray-900 font-bold text-base uppercase tracking-wide">
+                            <span className="text-[#1f2937] font-bold text-base uppercase tracking-wide">
                               {link.label}
                             </span>
                             <motion.svg
                               animate={{ rotate: mobileProgramsOpen ? 180 : 0 }}
                               transition={{ duration: 0.3 }}
-                              className="w-5 h-5 text-gray-600 flex-shrink-0"
+                              className="w-5 h-5 text-[#1f2937] flex-shrink-0"
                               fill="none"
                               stroke="currentColor"
                               viewBox="0 0 24 24"
@@ -347,7 +347,7 @@ const Navbar = () => {
                                         setIsMobileMenuOpen(false)
                                         setMobileProgramsOpen(false)
                                       }}
-                                      className="block px-4 py-3 rounded-lg text-gray-800 hover:bg-[#8b1538] hover:text-white transition-all duration-200 text-sm font-semibold bg-white shadow-sm"
+                                      className="block px-4 py-3 rounded-lg text-[#1f2937] hover:bg-[#1e40af] hover:text-white transition-all duration-200 text-sm font-semibold bg-white shadow-sm"
                                     >
                                       {item.label}
                                     </Link>
@@ -361,7 +361,7 @@ const Navbar = () => {
                               {/* Overview Section */}
                               <div className="pt-2 pb-2">
                                 <div className="flex items-center gap-2 mb-4 px-2">
-                                  <div className="w-2 h-2 bg-[#d4af37] rounded-full"></div>
+                                  <div className="w-2 h-2 bg-[#dc2626] rounded-full"></div>
                                   <h4 className="text-sm font-bold text-gray-600 uppercase tracking-wider">
                                     Overview
                                   </h4>
@@ -375,7 +375,7 @@ const Navbar = () => {
                                         setIsMobileMenuOpen(false)
                                         setMobileProgramsOpen(false)
                                       }}
-                                      className="block px-4 py-3 rounded-lg text-gray-800 hover:bg-[#0a1628] hover:text-white transition-all duration-200 text-sm font-semibold bg-white shadow-sm"
+                                      className="block px-4 py-3 rounded-lg text-[#1f2937] hover:bg-[#dc2626] hover:text-white transition-all duration-200 text-sm font-semibold bg-white shadow-sm"
                                     >
                                       {item.label}
                                     </Link>
@@ -389,7 +389,7 @@ const Navbar = () => {
                         <Link
                           href={link.href}
                           onClick={() => setIsMobileMenuOpen(false)}
-                          className="block px-4 py-4 text-gray-900 hover:bg-gray-50 transition-colors font-bold text-base uppercase tracking-wide"
+                          className="block px-4 py-4 text-[#1f2937] hover:bg-gray-50 transition-colors font-bold text-base uppercase tracking-wide"
                         >
                           {link.label}
                         </Link>
@@ -402,7 +402,7 @@ const Navbar = () => {
                     <Link href="/admissions" onClick={() => setIsMobileMenuOpen(false)}>
                       <motion.button
                         whileTap={{ scale: 0.98 }}
-                        className="w-full py-3.5 bg-[#ffd700] text-black rounded-lg font-bold text-sm shadow-md hover:bg-[#ffed4e] transition-all duration-200"
+                        className="w-full py-3.5 bg-[#dc2626] text-white rounded-lg font-bold text-sm shadow-md hover:bg-[#b91c1c] transition-all duration-200"
                       >
                         APPLY NOW
                       </motion.button>
@@ -410,7 +410,7 @@ const Navbar = () => {
                     <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
                       <motion.button
                         whileTap={{ scale: 0.98 }}
-                        className="w-full py-3.5 bg-white text-black rounded-lg font-bold text-sm border-2 border-[#ffd700] hover:bg-[#ffd700]/10 transition-all duration-200"
+                        className="w-full py-3.5 bg-white text-[#1f2937] rounded-lg font-bold text-sm border-2 border-[#1e40af] hover:bg-[#1e40af] hover:text-white transition-all duration-200"
                       >
                         CONTACT US
                       </motion.button>

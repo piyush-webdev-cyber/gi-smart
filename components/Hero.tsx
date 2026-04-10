@@ -6,10 +6,11 @@ import { FaExternalLinkAlt } from 'react-icons/fa'
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 sm:pt-24 md:pt-[125px] pb-12 sm:pb-16 md:pb-24 bg-gradient-to-b from-[#0a0a0a] to-[#0a1628]">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 sm:pt-24 md:pt-[125px] pb-12 sm:pb-16 md:pb-24">
       {/* Background Image Effect */}
-      <div className="absolute inset-0 opacity-20">
+      <div className="absolute inset-0">
         <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655')] bg-cover bg-center" />
+        <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
@@ -22,7 +23,7 @@ const Hero = () => {
             className="text-white text-center lg:text-left"
           >
             <div className="mb-4 sm:mb-6">
-              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-[#ffd700] font-semibold mb-2">Welcome to the Future of Education</p>
+              <p className="text-sm sm:text-base md:text-lg lg:text-xl text-[#dc2626] font-semibold mb-2">Welcome to the Future of Education</p>
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 sm:mb-4 leading-tight">
                 Where Intelligence Meets Imagination
               </h1>
@@ -44,7 +45,7 @@ const Hero = () => {
                 }}
                 whileHover={{ scale: 1.05, y: -3 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-[#ffd700] text-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base lg:text-lg flex items-center justify-center gap-2 hover:bg-[#ffed4e] transition-all duration-300"
+                className="bg-[#dc2626] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base lg:text-lg flex items-center justify-center gap-2 hover:bg-[#b91c1c] transition-all duration-300"
               >
                 EXPLORE CURRICULUM
                 <FaExternalLinkAlt />
@@ -67,7 +68,7 @@ const Hero = () => {
               <div className="aspect-video bg-gray-900 rounded relative overflow-hidden">
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center text-white p-4 sm:p-6 md:p-8">
-                    <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#ffd700] mb-2 sm:mb-4">
+                    <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-[#dc2626] mb-2 sm:mb-4">
                       Letter to my 'Classmates'
                     </h2>
                     <p className="text-xs sm:text-sm md:text-base text-white/80">

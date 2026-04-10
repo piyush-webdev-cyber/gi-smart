@@ -5,7 +5,7 @@ import { FaExternalLinkAlt, FaInstagram, FaPlay, FaLinkedin } from 'react-icons/
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-br from-[#0a1628] to-[#0a0a0a] text-white border-t border-[#d4af37]/20">
+    <footer className="bg-gradient-to-br from-[#1e40af] to-[#1f2937] text-white border-t border-[#dc2626]/20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16">
         <div className="mb-8 sm:mb-10 md:mb-12">
           {/* Logo and CTA */}
@@ -19,7 +19,7 @@ const Footer = () => {
               {/* <span className="text-white font-bold text-base sm:text-lg md:text-xl">GI-SMART</span> */}
             </div>
             <Link href="/admissions">
-              <button className="bg-[#ffd700] text-black px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold text-xs sm:text-sm flex items-center gap-2 hover:bg-[#ffed4e] transition-colors mb-6 sm:mb-8">
+              <button className="bg-[#dc2626] text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold text-xs sm:text-sm flex items-center gap-2 hover:bg-[#b91c1c] transition-colors mb-6 sm:mb-8">
                 APPLY NOW
                 <FaExternalLinkAlt className="text-xs sm:text-sm" />
               </button>
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
 
         {/* Decorative Line */}
-        <div className="h-0.5 sm:h-1 bg-gradient-to-r from-purple-500 via-blue-500 to-yellow-500 mb-4 sm:mb-6"></div>
+        <div className="h-0.5 sm:h-1 bg-gradient-to-r from-[#dc2626] via-[#1e40af] to-white mb-4 sm:mb-6"></div>
 
         {/* Bottom Footer */}
         <div className="pt-4 sm:pt-6">
