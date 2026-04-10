@@ -127,19 +127,11 @@ const Navbar = () => {
       >
         <div className="w-full pl-0 pr-4 sm:px-6 lg:px-0">
           <div className="flex items-center justify-between h-16">
-            {/* Logo */}
-            {/* <Link href="/" className="flex items-center gap-3">
-              <img 
-                src="/gi-france-removebg-preview.png" 
-                alt="GI-SMART Logo" 
-                className="h-20 w-auto object-contain"
-              />
-            </Link> */}
             <Link href="/" className="flex items-center flex-shrink-0">
   <img 
-    src="/cool_logo-removebg-preview.png" 
+    src="/final-logo-removebg-preview.png" 
     alt="GI-SMART Logo" 
-      className="h-20 sm:h-20 md:h-20 w-auto object-contain"
+      className="h-14 sm:h-14 md:h-14 w-auto object-contain"
   />
 </Link>
 
@@ -295,9 +287,9 @@ const Navbar = () => {
                 <div className="flex items-center justify-between py-4 border-b border-gray-200 bg-white flex-shrink-0">
                   <Link href="/" className="flex items-center mr-auto" onClick={() => setIsMobileMenuOpen(false)}>
                     <img 
-                      src="/cool_logo-removebg-preview.png" 
+                      src="/final-logo-removebg-preview.png" 
                       alt="GI-SMART Logo" 
-                      className="h-20 sm:h-20 w-auto object-contain"
+                      className="h-14 sm:h-14 w-auto object-contain"
                     />
                   </Link>
                   <button
