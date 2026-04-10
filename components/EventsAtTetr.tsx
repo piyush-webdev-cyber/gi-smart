@@ -116,8 +116,9 @@ const EventsAtTetr = () => {
                   </div>
                 </div>
                 <div className="flex justify-end">
-                  <span className="bg-gray-200 text-gray-700 px-4 py-2 rounded text-sm font-semibold">
+                  <span className="bg-red-500 text-white px-4 py-2 rounded text-sm font-semibold">
                     UPCOMING EVENT
+                    
                   </span>
                 </div>
               </div>
