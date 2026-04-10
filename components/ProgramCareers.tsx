@@ -115,7 +115,7 @@ const ProgramCareers = () => {
                 </div>
               </div>
 
-              <button className="bg-[#ffd700] text-black px-6 py-3 rounded-lg font-semibold hover:bg-[#ffed4e] transition-colors flex items-center gap-2">
+              <button className="bg-[#dc2626] text-black px-6 py-3 rounded-lg font-semibold hover:bg-[#ffed4e] transition-colors flex items-center gap-2">
                 VIEW CAREER LAB REPORT
                 <FaExternalLinkAlt />
               </button>

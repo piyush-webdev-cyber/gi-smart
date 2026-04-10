@@ -130,7 +130,7 @@ const MScAAIDSCurriculumSection = () => {
             ].map((feature, idx) => (
               <div key={idx} className="bg-white border-2 border-[#8b1538] rounded-lg p-4">
                 <div className="flex items-start gap-3">
-                  <div className="w-2 h-2 bg-[#ffd700] rounded-full mt-2 flex-shrink-0"></div>
+                  <div className="w-2 h-2 bg-[#dc2626] rounded-full mt-2 flex-shrink-0"></div>
                   <p className="text-gray-800 font-medium">{feature}</p>
                 </div>
               </div>
@@ -183,7 +183,7 @@ const MScAAIDSCurriculumSection = () => {
               transition={{ delay: term.id * 0.1 }}
               onClick={() => setActiveTerm(activeTerm === term.id ? null : term.id)}
               className={`bg-gradient-to-br from-[#0a1628] to-[#1a2332] rounded-lg p-6 cursor-pointer transition-all hover:shadow-xl ${
-                activeTerm === term.id ? 'ring-4 ring-[#ffd700]' : ''
+                activeTerm === term.id ? 'ring-4 ring-[#dc2626]' : ''
               }`}
             >
               <div className="flex items-center justify-between mb-4">
@@ -207,7 +207,7 @@ const MScAAIDSCurriculumSection = () => {
                           <span className={`text-xs px-2 py-1 rounded ${
                             course.credits === 'Core' ? 'bg-blue-500/30 text-blue-200' :
                             course.credits === 'Specialization' ? 'bg-purple-500/30 text-purple-200' :
-                            course.credits === 'Capstone' ? 'bg-[#ffd700]/30 text-[#ffd700]' :
+                            course.credits === 'Capstone' ? 'bg-[#dc2626]/30 text-[#dc2626]' :
                             'bg-gray-500/30 text-gray-200'
                           }`}>
                             {course.credits}

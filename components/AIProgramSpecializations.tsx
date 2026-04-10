@@ -112,7 +112,7 @@ const AIProgramSpecializations = () => {
           <button className="w-12 h-12 rounded-full bg-gray-200 hover:bg-gray-300 flex items-center justify-center transition-colors">
             ←
           </button>
-          <button className="w-12 h-12 rounded-full bg-[#ffd700] hover:bg-[#ffed4e] flex items-center justify-center transition-colors">
+          <button className="w-12 h-12 rounded-full bg-[#dc2626] hover:bg-[#ffed4e] flex items-center justify-center transition-colors">
             →
           </button>
         </div>

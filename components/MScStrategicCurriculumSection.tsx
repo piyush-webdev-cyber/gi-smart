@@ -101,7 +101,7 @@ const MScStrategicCurriculumSection = () => {
               transition={{ delay: term.id * 0.1 }}
               onClick={() => setActiveTerm(activeTerm === term.id ? null : term.id)}
               className={`bg-gradient-to-br from-[#0a1628] to-[#1a2332] rounded-lg p-6 cursor-pointer transition-all hover:shadow-xl ${
-                activeTerm === term.id ? 'ring-4 ring-[#ffd700]' : ''
+                activeTerm === term.id ? 'ring-4 ring-[#dc2626]' : ''
               }`}
             >
               <div className="flex items-center justify-between mb-4">
@@ -147,7 +147,7 @@ const MScStrategicCurriculumSection = () => {
           <h4 className="text-2xl font-bold mb-6 text-center">Program Highlights</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white/10 rounded-lg p-6">
-              <h5 className="text-lg font-semibold mb-3 text-[#ffd700]">Core Focus Areas</h5>
+              <h5 className="text-lg font-semibold mb-3 text-[#dc2626]">Core Focus Areas</h5>
               <ul className="space-y-2 text-white/90">
                 <li>• Advanced Strategic Analysis</li>
                 <li>• Intelligent Decision Systems</li>
@@ -156,7 +156,7 @@ const MScStrategicCurriculumSection = () => {
               </ul>
             </div>
             <div className="bg-white/10 rounded-lg p-6">
-              <h5 className="text-lg font-semibold mb-3 text-[#ffd700]">Capstone Deliverables</h5>
+              <h5 className="text-lg font-semibold mb-3 text-[#dc2626]">Capstone Deliverables</h5>
               <ul className="space-y-2 text-white/90">
                 <li>• Master's Thesis</li>
                 <li>• Strategic Capstone Project</li>

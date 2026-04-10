@@ -49,7 +49,7 @@ const AmbitiousMission = () => {
               <Link href="/careers">
                 <motion.div
                   whileHover={{ scale: 1.05 }}
-                  className="bg-[#ffd700] text-[#8b1538] p-4 sm:p-5 md:p-6 rounded-lg cursor-pointer relative min-w-[150px] sm:min-w-[200px]"
+                  className="bg-[#dc2626] text-[#8b1538] p-4 sm:p-5 md:p-6 rounded-lg cursor-pointer relative min-w-[150px] sm:min-w-[200px]"
                 >
                   <FaExternalLinkAlt className="absolute top-2 sm:top-3 right-2 sm:right-3 text-[#8b1538] text-base sm:text-lg" />
                   <h3 className="text-base sm:text-lg md:text-xl font-bold">Careers at GI-SMART</h3>

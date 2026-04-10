@@ -122,7 +122,7 @@ function buildHtmlEmail(data: Record<string, unknown>): string {
 <body style="margin:0;background:#f3f4f6;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
   <div style="max-width:600px;margin:0 auto;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 4px 6px rgba(0,0,0,0.07);">
     <div style="background:linear-gradient(135deg,#0a1628 0%,#1a2332 100%);padding:24px 24px 20px;text-align:center;">
-      <div style="color:#ffd700;font-size:11px;letter-spacing:2px;margin-bottom:4px;">ADMISSIONS</div>
+      <div style="color:#dc2626;font-size:11px;letter-spacing:2px;margin-bottom:4px;">ADMISSIONS</div>
       <h1 style="color:#fff;font-size:24px;font-weight:700;margin:0;">GI-SMART</h1>
       <p style="color:rgba(255,255,255,0.85);font-size:13px;margin:8px 0 0;">New application received</p>
     </div>

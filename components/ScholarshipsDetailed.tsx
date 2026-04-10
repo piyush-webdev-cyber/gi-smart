@@ -98,7 +98,7 @@ const ScholarshipsDetailed = () => {
                 whileTap={{ scale: 0.98 }}
                 className={`px-6 py-3 rounded-lg font-semibold transition-all ${
                   activeTab === 'undergraduate'
-                    ? 'bg-[#ffd700] text-black'
+                    ? 'bg-[#dc2626] text-black'
                     : 'bg-white border-2 border-gray-300 text-gray-700 hover:border-gray-400'
                 }`}
               >
@@ -110,7 +110,7 @@ const ScholarshipsDetailed = () => {
                 whileTap={{ scale: 0.98 }}
                 className={`px-6 py-3 rounded-lg font-semibold transition-all ${
                   activeTab === 'postgraduate'
-                    ? 'bg-[#ffd700] text-black'
+                    ? 'bg-[#dc2626] text-white'
                     : 'bg-white border-2 border-gray-300 text-gray-700 hover:border-gray-400'
                 }`}
               >

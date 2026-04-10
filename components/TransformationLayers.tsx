@@ -47,7 +47,7 @@ const TransformationLayers = () => {
                 transition={{ delay: index * 0.1 }}
                 onClick={() => setActiveLayer(layer.id)}
                 className={`${layer.color} p-8 rounded-xl cursor-pointer transform transition-all hover:scale-[1.02] relative ${
-                  activeLayer === layer.id ? 'ring-2 ring-[#ffd700] shadow-lg' : ''
+                  activeLayer === layer.id ? 'ring-2 ring-[#dc2626] shadow-lg' : ''
                 }`}
                 style={{ 
                   marginLeft: `${index * 15}px`,
@@ -85,15 +85,15 @@ const TransformationLayers = () => {
                 </p>
                 <ul className="space-y-4 text-white/90">
                   <li className="flex items-start gap-3">
-                    <span className="text-[#ffd700] mt-1">•</span>
+                    <span className="text-[#dc2626] mt-1">•</span>
                     <span>Students enroll in gamified & engaging workshops, rather than long theoretical courses</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-[#ffd700] mt-1">•</span>
+                    <span className="text-[#dc2626] mt-1">•</span>
                     <span>Inspiring practitioners teach what they hire for and what they practice everyday</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <span className="text-[#ffd700] mt-1">•</span>
+                    <span className="text-[#dc2626] mt-1">•</span>
                     <span>Learning is driven by real life applicability, rather than by an outdated syllabi & exams</span>
                   </li>
                 </ul>
@@ -170,7 +170,7 @@ const TransformationLayers = () => {
                   ))}
                 </div>
                 <div className="flex justify-end mt-4">
-                  <button className="w-12 h-12 bg-[#ffd700] hover:bg-[#ffed4e] rounded-lg flex items-center justify-center text-black transition-colors">
+                  <button className="w-12 h-12 bg-[#dc2626] hover:bg-[#b91c1c] rounded-lg flex items-center justify-center text-white transition-colors">
                     →
                   </button>
                 </div>

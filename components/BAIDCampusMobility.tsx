@@ -34,15 +34,15 @@ const BAIDCampusMobility = () => {
             </p>
             <ul className="space-y-2 text-gray-700">
               <li className="flex items-start gap-2">
-                <FaCheck className="text-[#ffd700] font-bold mt-1 flex-shrink-0" />
+                <FaCheck className="text-[#dc2626] font-bold mt-1 flex-shrink-0" />
                 <span>Deep immersion in Paris</span>
               </li>
               <li className="flex items-start gap-2">
-                <FaCheck className="text-[#ffd700] font-bold mt-1 flex-shrink-0" />
+                <FaCheck className="text-[#dc2626] font-bold mt-1 flex-shrink-0" />
                 <span>Build strong local and European networks</span>
               </li>
               <li className="flex items-start gap-2">
-                <FaCheck className="text-[#ffd700] font-bold mt-1 flex-shrink-0" />
+                <FaCheck className="text-[#dc2626] font-bold mt-1 flex-shrink-0" />
                 <span>Potential residency opportunities in France / EU</span>
               </li>
             </ul>
@@ -60,15 +60,15 @@ const BAIDCampusMobility = () => {
             </p>
             <ul className="space-y-2 text-white/90">
               <li className="flex items-start gap-2">
-                <FaCheck className="text-[#ffd700] font-bold mt-1 flex-shrink-0" />
+                <FaCheck className="text-[#dc2626] font-bold mt-1 flex-shrink-0" />
                 <span>Exposure to diverse industries</span>
               </li>
               <li className="flex items-start gap-2">
-                <FaCheck className="text-[#ffd700] font-bold mt-1 flex-shrink-0" />
+                <FaCheck className="text-[#dc2626] font-bold mt-1 flex-shrink-0" />
                 <span>Language and cultural immersion in France</span>
               </li>
               <li className="flex items-start gap-2">
-                <FaCheck className="text-[#ffd700] font-bold mt-1 flex-shrink-0" />
+                <FaCheck className="text-[#dc2626] font-bold mt-1 flex-shrink-0" />
                 <span>International professional networks</span>
               </li>
             </ul>

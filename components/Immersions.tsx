@@ -53,7 +53,7 @@ const Immersions = () => {
                 onClick={() => setActiveLocation(location)}
                 className={`w-full text-left p-4 rounded-lg transition-colors flex items-center gap-3 ${
                   activeLocation === location
-                    ? 'bg-[#ffd700] text-black'
+                    ? 'bg-[#dc2626] text-black'
                     : 'text-white hover:bg-white/10'
                 }`}
               >
@@ -70,7 +70,7 @@ const Immersions = () => {
             viewport={{ once: true }}
             className="space-y-4"
           >
-            <div className="text-[#ffd700] text-sm font-semibold uppercase tracking-wide mb-4">
+            <div className="text-[#dc2626] text-sm font-semibold uppercase tracking-wide mb-4">
               Business Immersions
             </div>
             <div className="relative aspect-video bg-gray-900 rounded-lg overflow-hidden mb-4">
@@ -91,7 +91,7 @@ const Immersions = () => {
             transition={{ delay: 0.2 }}
             className="space-y-4"
           >
-            <div className="text-[#ffd700] text-sm font-semibold uppercase tracking-wide mb-4">
+            <div className="text-[#dc2626] text-sm font-semibold uppercase tracking-wide mb-4">
               Cultural Immersions
             </div>
             <div className="relative aspect-video bg-gray-900 rounded-lg overflow-hidden mb-4">

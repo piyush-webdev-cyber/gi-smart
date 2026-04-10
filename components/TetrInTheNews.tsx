@@ -46,7 +46,7 @@ const TetrInTheNews = () => {
               ←
             </button>
             <button
-              className="w-10 h-10 rounded-full bg-[#ffd700] hover:bg-[#ffed4e] text-black flex items-center justify-center transition-colors"
+              className="w-10 h-10 rounded-full bg-[#dc2626] hover:bg-[#b91c1c] text-white flex items-center justify-center transition-colors"
             >
               →
             </button>
@@ -83,7 +83,7 @@ const TetrInTheNews = () => {
 
         {/* View More Button */}
         <div className="text-center">
-          <button className="bg-[#ffd700] text-black px-8 py-3 rounded-lg font-semibold hover:bg-[#ffed4e] transition-colors flex items-center gap-2 mx-auto">
+          <button className="bg-[#dc2626] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#b91c1c] transition-colors flex items-center gap-2 mx-auto">
             VIEW MORE
             <FaExternalLinkAlt />
           </button>

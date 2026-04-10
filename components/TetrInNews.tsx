@@ -71,7 +71,7 @@ const TetrInNews = () => {
               onClick={nextSlide}
               whileHover={{ scale: 1.1, x: 3 }}
               whileTap={{ scale: 0.9 }}
-              className="w-10 h-10 bg-[#ffd700] hover:bg-[#ffed4e] rounded flex items-center justify-center text-black transition-colors"
+              className="w-10 h-10 bg-[#dc2626] hover:bg-[#b91c1c] rounded flex items-center justify-center text-white transition-colors"
             >
               →
             </motion.button>
@@ -119,7 +119,7 @@ const TetrInNews = () => {
           <motion.button
             whileHover={{ scale: 1.05, y: -3 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-[#ffd700] text-white font-bold px-8 py-4 rounded-lg flex items-center gap-2 mx-auto hover:bg-[#ffed4e] hover:text-black transition-all duration-300"
+            className="bg-[#dc2626] text-white font-bold px-8 py-4 rounded-lg flex items-center gap-2 mx-auto hover:bg-[#b91c1c] transition-all duration-300"
           >
             VIEW MORE
             <span>→</span>

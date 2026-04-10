@@ -81,11 +81,11 @@ const CareerLabs = () => {
             <h3 className="text-3xl font-bold mb-8">In Term Internships</h3>
             <div className="grid grid-cols-2 gap-8 mb-12">
               <div>
-                <div className="text-5xl font-bold text-[#ffd700] mb-2">110+</div>
+                <div className="text-5xl font-bold text-[#dc2626] mb-2">110+</div>
                 <div className="text-white/80">Internships (in the first year)</div>
               </div>
               <div>
-                <div className="text-5xl font-bold text-[#ffd700] mb-2">15+</div>
+                <div className="text-5xl font-bold text-[#dc2626] mb-2">15+</div>
                 <div className="text-white/80">Countries</div>
               </div>
             </div>
@@ -93,7 +93,7 @@ const CareerLabs = () => {
             <h3 className="text-3xl font-bold mb-8">Career Outcomes</h3>
             <div className="mb-4">
               <div className="text-white/80 mb-2">Bachelor's Program</div>
-              <div className="text-5xl font-bold text-[#ffd700]">131.760 USD</div>
+              <div className="text-5xl font-bold text-[#dc2626]">131.760 USD</div>
             </div>
           </motion.div>
         </div>

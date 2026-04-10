@@ -49,7 +49,7 @@ const BehindScenes = () => {
               <div className="absolute inset-0 flex items-center justify-center">
                 <motion.div
                   whileHover={{ scale: 1.1 }}
-                  className="w-20 h-20 bg-[#ffd700] rounded-full flex items-center justify-center shadow-lg"
+                  className="w-20 h-20 bg-[#dc2626] rounded-full flex items-center justify-center shadow-lg"
                 >
                   <FaPlay className="text-2xl text-black ml-1" />
                 </motion.div>

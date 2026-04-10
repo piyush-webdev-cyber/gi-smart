@@ -106,19 +106,19 @@ const ContactSection = () => {
               <div className="space-y-6">
                 <div>
                   <p className="text-white/90 mb-2">For UG admission-related inquiries, please contact us at:</p>
-                  <Link href="mailto:studentsupport-ug@GI-SMART.org" className="text-[#ffd700] underline">
+                  <Link href="mailto:studentsupport-ug@GI-SMART.org" className="text-[#dc2626] underline">
                     studentsupport-ug@GI-SMART.org
                   </Link>
                 </div>
                 <div>
                   <p className="text-white/90 mb-2">For PG admission-related inquiries, please contact us at:</p>
-                  <Link href="mailto:studentsupport-pg@GI-SMART.com" className="text-[#ffd700] underline">
+                  <Link href="mailto:studentsupport-pg@GI-SMART.com" className="text-[#dc2626] underline">
                     studentsupport-pg@GI-SMART.com
                   </Link>
                 </div>
                 <div>
                   <p className="text-white/90 mb-2">For general inquiries, reach out to:</p>
-                  <Link href="mailto:info@GI-SMART.com" className="text-[#ffd700] underline">
+                  <Link href="mailto:info@GI-SMART.com" className="text-[#dc2626] underline">
                     info@GI-SMART.com
                   </Link>
                 </div>
@@ -135,7 +135,7 @@ const ContactSection = () => {
                     className="bg-white/10 hover:bg-white/20 p-4 rounded-lg cursor-pointer flex items-center justify-between transition-colors"
                   >
                     <span className="text-lg font-semibold">Bachelor's Admissions Counsellor</span>
-                    <FaExternalLinkAlt className="text-[#ffd700]" />
+                    <FaExternalLinkAlt className="text-[#dc2626]" />
                   </motion.div>
                 </Link>
                 <Link href="/consultation/masters">
@@ -144,7 +144,7 @@ const ContactSection = () => {
                     className="bg-white/10 hover:bg-white/20 p-4 rounded-lg cursor-pointer flex items-center justify-between transition-colors"
                   >
                     <span className="text-lg font-semibold">Master's Admissions Counsellor</span>
-                    <FaExternalLinkAlt className="text-[#ffd700]" />
+                    <FaExternalLinkAlt className="text-[#dc2626]" />
                   </motion.div>
                 </Link>
               </div>

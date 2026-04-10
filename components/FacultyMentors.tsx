@@ -13,7 +13,7 @@ const FacultyMentors = () => {
         <div className="mb-16">
           <div className="flex items-center gap-4 mb-8">
             <h2 className="text-6xl md:text-7xl font-bold text-gray-900">Real</h2>
-            <div className="h-1 w-32 bg-[#ffd700]"></div>
+            <div className="h-1 w-32 bg-[#dc2626]"></div>
             <div className="flex flex-col text-gray-600 text-2xl md:text-3xl font-semibold">
               <span>Strategy</span>
               <span>Solutions</span>

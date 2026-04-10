@@ -150,7 +150,7 @@ const MScAAIDSInfoSection = () => {
               </motion.div>
             ))}
           </div>
-          <div className="mt-8 text-center bg-[#ffd700] rounded-lg p-6">
+          <div className="mt-8 text-center bg-[#dc2626] rounded-lg p-6">
             <p className="text-gray-900 font-bold text-lg">
               Faculty: 80% PhD-level, 20% industry adjuncts
             </p>
@@ -206,7 +206,7 @@ const MScAAIDSInfoSection = () => {
                   key={idx}
                   className={`p-6 rounded-lg ${
                     item.highlight
-                      ? 'bg-[#ffd700] text-black'
+                      ? 'bg-[#dc2626] text-black'
                       : 'bg-white/10'
                   }`}
                 >

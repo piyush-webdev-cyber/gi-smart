@@ -35,7 +35,7 @@ const ScholarshipsSection = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-[#ffd700] text-black px-6 py-3 rounded-lg font-semibold text-sm flex items-center gap-2 hover:bg-[#ffed4e] transition-colors"
+                className="bg-[#dc2626] text-white px-6 py-3 rounded-lg font-semibold text-sm flex items-center gap-2 hover:bg-[#b91c1c] transition-colors"
               >
                 APPLY NOW
                 <FaExternalLinkAlt className="text-xs" />

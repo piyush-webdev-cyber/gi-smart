@@ -36,7 +36,7 @@ const AboutTopHero = () => {
             </motion.div>
             
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              <span className="text-[#ffd700]">Learn to Build.</span>
+              <span className="text-[#dc2626]">Learn to Build.</span>
               <br />
               <span className="text-white italic">Build to Learn.</span>
             </h1>

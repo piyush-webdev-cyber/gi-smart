@@ -98,7 +98,7 @@ export default function TuitionPathwayPage() {
               </div>
             </div>
 
-            <div className="mt-4 sm:mt-6 bg-[#ffd700]/20 border-l-4 border-[#ffd700] p-3 sm:p-4 rounded">
+            <div className="mt-4 sm:mt-6 bg-[#dc2626]/20 border-l-4 border-[#dc2626] p-3 sm:p-4 rounded">
               <p className="text-xs sm:text-sm md:text-base text-gray-800">
                 <span className="font-bold">💡 Students may begin with the Certificate or Diploma and later "stack" their learning toward the full BAID degree</span> — maintaining credit continuity and academic momentum.
               </p>
@@ -134,13 +134,13 @@ export default function TuitionPathwayPage() {
                     <tr className="hover:bg-white/10">
                       <td className="px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 font-semibold text-xs sm:text-sm md:text-base">Standard Track</td>
                       <td className="px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-xs sm:text-sm md:text-base">18 Months</td>
-                      <td className="px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 font-bold text-[#ffd700] text-xs sm:text-sm md:text-base">€30,000</td>
+                      <td className="px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 font-bold text-[#dc2626] text-xs sm:text-sm md:text-base">€30,000</td>
                       <td className="px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-xs sm:text-sm md:text-base">Open to graduates from any recognized undergraduate program. Comprehensive MSc covering Data Analytics, Machine Learning, and AI-driven strategic design.</td>
                     </tr>
                     <tr className="hover:bg-white/10">
                       <td className="px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 font-semibold text-xs sm:text-sm md:text-base">Accelerated Track</td>
                       <td className="px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-xs sm:text-sm md:text-base">12–14 Months</td>
-                      <td className="px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 font-bold text-[#ffd700] text-xs sm:text-sm md:text-base">€20,000</td>
+                      <td className="px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 font-bold text-[#dc2626] text-xs sm:text-sm md:text-base">€20,000</td>
                       <td className="px-3 sm:px-4 md:px-6 py-2 sm:py-3 md:py-4 text-xs sm:text-sm md:text-base">Exclusive to BAID graduates. Recognizes prior coursework and professional competencies developed during BAID for faster completion and reduced tuition.</td>
                     </tr>
                   </tbody>
@@ -148,10 +148,10 @@ export default function TuitionPathwayPage() {
               </div>
             </div>
 
-            <div className="mt-6 sm:mt-8 bg-white/10 border-l-4 border-[#ffd700] p-4 sm:p-5 md:p-6 rounded">
+            <div className="mt-6 sm:mt-8 bg-white/10 border-l-4 border-[#dc2626] p-4 sm:p-5 md:p-6 rounded">
               <p className="text-base sm:text-lg md:text-xl font-bold mb-2">🎓 Dual-Enrollment Advantage:</p>
               <p className="text-sm sm:text-base text-white/90">
-                Enroll simultaneously in both the BAID and MSc programs and benefit from a combined tuition of <span className="font-bold text-[#ffd700]">€55,000</span> (instead of €60,000).
+                Enroll simultaneously in both the BAID and MSc programs and benefit from a combined tuition of <span className="font-bold text-[#dc2626]">€55,000</span> (instead of €60,000).
               </p>
             </div>
           </div>
@@ -219,23 +219,23 @@ export default function TuitionPathwayPage() {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-5 md:gap-6">
               <div className="bg-white/10 rounded-lg p-4 sm:p-5 md:p-6">
-                <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-[#ffd700]">Global Mobility & Multi-Campus Experience</h3>
+                <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-[#dc2626]">Global Mobility & Multi-Campus Experience</h3>
                 <p className="text-xs sm:text-sm md:text-base text-white/90">Anchor in one city, explore the others.</p>
               </div>
               <div className="bg-white/10 rounded-lg p-4 sm:p-5 md:p-6">
-                <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-[#ffd700]">Financial Flexibility & Tiered Pathways</h3>
+                <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-[#dc2626]">Financial Flexibility & Tiered Pathways</h3>
                 <p className="text-xs sm:text-sm md:text-base text-white/90">Start with a Certificate and advance seamlessly.</p>
               </div>
               <div className="bg-white/10 rounded-lg p-4 sm:p-5 md:p-6">
-                <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-[#ffd700]">Career ROI</h3>
+                <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-[#dc2626]">Career ROI</h3>
                 <p className="text-xs sm:text-sm md:text-base text-white/90">Each tier aligned with high-demand roles in AI, ML, Data Science, and Creative Technology.</p>
               </div>
               <div className="bg-white/10 rounded-lg p-4 sm:p-5 md:p-6">
-                <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-[#ffd700]">Immigration Pathways</h3>
+                <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-[#dc2626]">Immigration Pathways</h3>
                 <p className="text-xs sm:text-sm md:text-base text-white/90">Graduates may explore post-study career opportunities in their anchor campus region.</p>
               </div>
               <div className="bg-white/10 rounded-lg p-4 sm:p-5 md:p-6">
-                <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-[#ffd700]">Personalized Learning</h3>
+                <h3 className="text-base sm:text-lg md:text-xl font-bold mb-2 sm:mb-3 text-[#dc2626]">Personalized Learning</h3>
                 <p className="text-xs sm:text-sm md:text-base text-white/90">Small cohorts (40–50 early years, 30–35 advanced years) ensure interactive mentorship.</p>
               </div>
             </div>

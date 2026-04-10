@@ -52,7 +52,7 @@ const TetrLaunchpad = () => {
                 </motion.div>
               </div>
             </div>
-            <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-[#ffd700] opacity-50" />
+            <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-[#dc2626] opacity-50" />
           </motion.div>
         </div>
       </div>

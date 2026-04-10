@@ -40,7 +40,7 @@ const MeetTheTribe = () => {
             <motion.button
               whileHover={{ scale: 1.1, x: 3 }}
               whileTap={{ scale: 0.9 }}
-              className="w-12 h-12 bg-[#ffd700] hover:bg-[#ffed4e] rounded-lg flex items-center justify-center text-black transition-colors"
+              className="w-12 h-12 bg-[#dc2626] hover:bg-[#ffed4e] rounded-lg flex items-center justify-center text-black transition-colors"
             >
               →
             </motion.button>
@@ -83,7 +83,7 @@ const MeetTheTribe = () => {
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1 + 0.3 }}
                     whileHover={{ scale: 1.2, rotate: 360 }}
-                    className="w-16 h-16 bg-[#ffd700] rounded-full flex items-center justify-center shadow-lg opacity-0 group-hover:opacity-100 transition-opacity"
+                    className="w-16 h-16 bg-[#dc2626] rounded-full flex items-center justify-center shadow-lg opacity-0 group-hover:opacity-100 transition-opacity"
                   >
                     <motion.span
                       className="text-2xl text-black ml-1"
@@ -102,7 +102,7 @@ const MeetTheTribe = () => {
                 transition={{ delay: index * 0.1 + 0.2 }}
                 className="text-center"
               >
-                <div className="text-white font-semibold mb-1 group-hover:text-[#ffd700] transition-colors">{student.name}</div>
+                <div className="text-white font-semibold mb-1 group-hover:text-[#dc2626] transition-colors">{student.name}</div>
                 <div className="text-white/80 text-sm flex items-center justify-center gap-1">
                   {student.flag} {student.country}
                 </div>
@@ -127,7 +127,7 @@ const MeetTheTribe = () => {
               transition={{ delay: index * 0.1 }}
               whileHover={{ scale: 1.5 }}
               className={`h-2 rounded-full transition-all ${
-                index === 0 ? 'bg-[#ffd700] w-8' : 'bg-white/30 w-2'
+                index === 0 ? 'bg-[#dc2626] w-8' : 'bg-white/30 w-2'
               }`}
             />
           ))}

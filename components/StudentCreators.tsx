@@ -59,7 +59,7 @@ const StudentCreators = () => {
               <button className="w-12 h-12 bg-gray-100 hover:bg-gray-200 rounded-lg flex items-center justify-center text-gray-600 transition-colors">
                 ←
               </button>
-              <button className="w-12 h-12 bg-[#ffd700] hover:bg-[#ffed4e] rounded-lg flex items-center justify-center text-black transition-colors">
+              <button className="w-12 h-12 bg-[#dc2626] hover:bg-[#ffed4e] rounded-lg flex items-center justify-center text-black transition-colors">
                 →
               </button>
             </div>

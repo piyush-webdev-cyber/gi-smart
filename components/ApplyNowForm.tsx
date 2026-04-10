@@ -252,7 +252,7 @@ const ApplyNowForm = () => {
               exit={{ opacity: 0, x: -20 }}
               transition={{ duration: 0.3 }}
             >
-              <h2 className="text-3xl font-bold text-white mb-2 pb-3 border-b-2 border-[#ffd700]">
+              <h2 className="text-3xl font-bold text-white mb-2 pb-3 border-b-2 border-[#dc2626]">
                 Personal Information
               </h2>
 
@@ -268,7 +268,7 @@ const ApplyNowForm = () => {
                     value={formData.firstName}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="Enter First Name"
                   />
                 </div>
@@ -284,7 +284,7 @@ const ApplyNowForm = () => {
                     value={formData.lastName}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="Enter Last Name"
                   />
                 </div>
@@ -301,7 +301,7 @@ const ApplyNowForm = () => {
                       value={formData.dateOfBirth}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     />
                     <FaCalendar className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none" />
                   </div>
@@ -317,7 +317,7 @@ const ApplyNowForm = () => {
                     value={formData.gender}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                   >
                     <option value="">Select</option>
                     <option value="male">Male</option>
@@ -337,7 +337,7 @@ const ApplyNowForm = () => {
                     value={formData.nationality}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="Enter Nationality"
                   />
                 </div>
@@ -353,7 +353,7 @@ const ApplyNowForm = () => {
                     value={formData.passportNumber}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="Enter Passport Number"
                   />
                 </div>
@@ -370,7 +370,7 @@ const ApplyNowForm = () => {
                       value={formData.passportExpiryDate}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                      className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     />
                     <FaCalendar className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 pointer-events-none" />
                   </div>
@@ -388,7 +388,7 @@ const ApplyNowForm = () => {
               exit={{ opacity: 0, x: -20 }}
               transition={{ duration: 0.3 }}
             >
-              <h2 className="text-3xl font-bold text-white mb-2 pb-3 border-b-2 border-[#ffd700]">
+              <h2 className="text-3xl font-bold text-white mb-2 pb-3 border-b-2 border-[#dc2626]">
                 Contact Information
               </h2>
 
@@ -404,7 +404,7 @@ const ApplyNowForm = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="Enter Email Address"
                   />
                 </div>
@@ -420,7 +420,7 @@ const ApplyNowForm = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="Enter Phone Number"
                   />
                 </div>
@@ -436,7 +436,7 @@ const ApplyNowForm = () => {
                     value={formData.address}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="Enter Address"
                   />
                 </div>
@@ -452,7 +452,7 @@ const ApplyNowForm = () => {
                     value={formData.city}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="Enter City"
                   />
                 </div>
@@ -468,7 +468,7 @@ const ApplyNowForm = () => {
                     value={formData.country}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="Enter Country"
                   />
                 </div>
@@ -483,7 +483,7 @@ const ApplyNowForm = () => {
                     name="zipCode"
                     value={formData.zipCode}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="Enter Zip/Postal Code"
                   />
                 </div>
@@ -500,7 +500,7 @@ const ApplyNowForm = () => {
               exit={{ opacity: 0, x: -20 }}
               transition={{ duration: 0.3 }}
             >
-              <h2 className="text-3xl font-bold text-white mb-2 pb-3 border-b-2 border-[#ffd700]">
+              <h2 className="text-3xl font-bold text-white mb-2 pb-3 border-b-2 border-[#dc2626]">
                 Academic Information
               </h2>
 
@@ -515,7 +515,7 @@ const ApplyNowForm = () => {
                     value={formData.programOfInterest}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                   >
                     <option value="">Select Program</option>
                     <option value="bba">BBA – Bachelor of Business Administration</option>
@@ -534,7 +534,7 @@ const ApplyNowForm = () => {
                     value={formData.intake}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                   >
                     <option value="">Select Intake</option>
                     <option value="fall-2026">Fall 2026</option>
@@ -553,7 +553,7 @@ const ApplyNowForm = () => {
                     value={formData.previousEducationLevel}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                   >
                     <option value="">Select</option>
                     <option value="high-school">High School</option>
@@ -574,7 +574,7 @@ const ApplyNowForm = () => {
                     value={formData.institutionName}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="Enter Institution Name"
                   />
                 </div>
@@ -590,7 +590,7 @@ const ApplyNowForm = () => {
                     value={formData.graduationYear}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="e.g., 2024"
                   />
                 </div>
@@ -605,7 +605,7 @@ const ApplyNowForm = () => {
                     name="gpaPercentage"
                     value={formData.gpaPercentage}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="e.g., 3.5 or 85%"
                   />
                 </div>
@@ -620,7 +620,7 @@ const ApplyNowForm = () => {
                     value={formData.englishProficiencyTest}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                   >
                     <option value="">Select</option>
                     <option value="ielts">IELTS</option>
@@ -640,7 +640,7 @@ const ApplyNowForm = () => {
                     name="testScore"
                     value={formData.testScore}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                     placeholder="e.g., IELTS 5.5"
                   />
                 </div>
@@ -672,13 +672,13 @@ const ApplyNowForm = () => {
               exit={{ opacity: 0, x: -20 }}
               transition={{ duration: 0.3 }}
             >
-              <h2 className="text-3xl font-bold text-white mb-2 pb-3 border-b-2 border-[#ffd700]">
+              <h2 className="text-3xl font-bold text-white mb-2 pb-3 border-b-2 border-[#dc2626]">
                 Campus & Program Preferences
               </h2>
 
               {/* Campus: only Paris, France for now */}
               <div className="mt-6 mb-6">
-                <div className="bg-[#ffd700]/15 border-l-4 border-[#ffd700] p-4 mb-4 rounded">
+                <div className="bg-[#dc2626]/15 border-l-4 border-[#dc2626] p-4 mb-4 rounded">
                   <p className="text-sm text-white/95 leading-relaxed">
                     We are currently offering one campus: <strong>Paris, France</strong>.
                   </p>
@@ -725,7 +725,7 @@ const ApplyNowForm = () => {
                         value={formData[key]}
                         onChange={handleChange}
                         required
-                        className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                        className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                       >
                         <option value="">Select</option>
                         {(() => {
@@ -752,7 +752,7 @@ const ApplyNowForm = () => {
               {/* Program cost & refund disclosure */}
               <div className="bg-white/10 border border-white/20 p-4 mb-4 rounded-lg">
                 <p className="text-white/95 text-sm leading-relaxed">
-                  <strong>Program cost:</strong> €12,000 per year (approximately ₹12 Lakh per year). Before a visa application can be submitted, the full first-year amount must be deposited with us. <strong className="text-[#ffd700]">This amount is FULLY REFUNDABLE</strong> if we cannot obtain a visa for you in France.
+                  <strong>Program cost:</strong> €12,000 per year (approximately ₹12 Lakh per year). Before a visa application can be submitted, the full first-year amount must be deposited with us. <strong className="text-[#dc2626]">This amount is FULLY REFUNDABLE</strong> if we cannot obtain a visa for you in France.
                 </p>
               </div>
 
@@ -782,11 +782,11 @@ const ApplyNowForm = () => {
               exit={{ opacity: 0, x: -20 }}
               transition={{ duration: 0.3 }}
             >
-              <h2 className="text-3xl font-bold text-white mb-2 pb-3 border-b-2 border-[#ffd700]">
+              <h2 className="text-3xl font-bold text-white mb-2 pb-3 border-b-2 border-[#dc2626]">
                 Required Documents
               </h2>
 
-              <div className="bg-[#ffd700]/20 border-l-4 border-[#ffd700] p-4 mb-6 mt-6 rounded">
+              <div className="bg-[#dc2626]/20 border-l-4 border-[#dc2626] p-4 mb-6 mt-6 rounded">
                 <p className="text-sm text-white/90">
                   Please upload all required documents in PDF format (Max 5MB each)
                 </p>
@@ -804,7 +804,7 @@ const ApplyNowForm = () => {
                     onChange={handleChange}
                     accept=".pdf"
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                   />
                 </div>
 
@@ -819,7 +819,7 @@ const ApplyNowForm = () => {
                     onChange={handleChange}
                     accept=".pdf,.jpg,.jpeg,.png"
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                   />
                 </div>
 
@@ -834,7 +834,7 @@ const ApplyNowForm = () => {
                     onChange={handleChange}
                     accept=".pdf"
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                   />
                 </div>
 
@@ -849,7 +849,7 @@ const ApplyNowForm = () => {
                     onChange={handleChange}
                     accept=".pdf"
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                   />
                 </div>
 
@@ -863,7 +863,7 @@ const ApplyNowForm = () => {
                     name="englishTestCertificate"
                     onChange={handleChange}
                     accept=".pdf"
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#ffd700] focus:ring-2 focus:ring-[#ffd700]/20 transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 bg-white text-gray-900 focus:outline-none focus:border-[#dc2626] focus:ring-2 focus:ring-[#dc2626]/20 transition-all"
                   />
                 </div>
 
@@ -895,7 +895,7 @@ const ApplyNowForm = () => {
                 />
                 <label htmlFor="agreeToPrivacy" className="text-white/90 text-sm leading-relaxed">
                   I agree to my details being processed in accordance with GI-SMART's{' '}
-                  <a href="/privacy-policy" className="text-[#ffd700] hover:underline">
+                  <a href="/privacy-policy" className="text-[#dc2626] hover:underline">
                     Privacy Policy
                   </a>
                   , and for GI-SMART and its affiliates to use my personal data to provide me with further information about its programs.

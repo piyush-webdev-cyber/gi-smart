@@ -30,7 +30,7 @@ const BachelorProgramHero = () => {
                 <motion.button
                   whileHover={{ scale: 1.05, y: -3 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-[#ffd700] text-black px-8 py-4 rounded-lg font-bold text-base md:text-lg flex items-center gap-2 hover:bg-[#ffed4e] transition-all duration-300"
+                  className="bg-[#dc2626] text-black px-8 py-4 rounded-lg font-bold text-base md:text-lg flex items-center gap-2 hover:bg-[#ffed4e] transition-all duration-300"
                 >
                   APPLY NOW | DEADLINE: 16TH FEB
                   <FaExternalLinkAlt className="text-sm" />
@@ -61,8 +61,8 @@ const BachelorProgramHero = () => {
             </div>
             
             {/* Award Badge */}
-            <div className="absolute -right-4 top-4 bg-gradient-to-br from-[#0a1628] to-[#1a2332] border-2 border-[#ffd700] text-white p-3 rounded-lg shadow-lg max-w-[200px]">
-              <div className="text-xs font-bold mb-1 text-[#ffd700]">QS GOLD WINNER</div>
+            <div className="absolute -right-4 top-4 bg-gradient-to-br from-[#0a1628] to-[#1a2332] border-2 border-[#dc2626] text-white p-3 rounded-lg shadow-lg max-w-[200px]">
+              <div className="text-xs font-bold mb-1 text-[#dc2626]">QS GOLD WINNER</div>
               <div className="text-xs leading-tight">Most Innovative Business School of 2025</div>
             </div>
           </motion.div>

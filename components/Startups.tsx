@@ -19,7 +19,7 @@ const Startups = () => {
             <div className="aspect-[9/16] bg-gray-900 rounded-lg overflow-hidden relative">
               <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1553028826-f4804a6dba3b')] bg-cover bg-center" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-20 h-20 bg-[#ffd700] rounded-full flex items-center justify-center cursor-pointer hover:scale-110 transition-transform border-4 border-black">
+                <div className="w-20 h-20 bg-[#dc2626] rounded-full flex items-center justify-center cursor-pointer hover:scale-110 transition-transform border-4 border-black">
                   <FaPlay className="text-2xl text-black ml-1" />
                 </div>
               </div>
@@ -49,7 +49,7 @@ const Startups = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-[#ffd700] text-black px-8 py-4 rounded-lg font-bold text-lg border-2 border-black flex items-center gap-2 hover:bg-[#ffed4e] transition-colors"
+                className="bg-[#dc2626] text-black px-8 py-4 rounded-lg font-bold text-lg border-2 border-black flex items-center gap-2 hover:bg-[#ffed4e] transition-colors"
               >
                 HEAR THEIR STORY
                 <FaExternalLinkAlt className="transform rotate-[-45deg]" />

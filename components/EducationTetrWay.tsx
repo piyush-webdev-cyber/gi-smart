@@ -29,7 +29,7 @@ const EducationTetrWay = () => {
             <div className="aspect-video bg-gray-900 rounded-lg overflow-hidden relative">
               <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655')] bg-cover bg-center" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <div className="w-20 h-20 bg-[#ffd700] rounded-full flex items-center justify-center cursor-pointer hover:scale-110 transition-transform">
+                <div className="w-20 h-20 bg-[#dc2626] rounded-full flex items-center justify-center cursor-pointer hover:scale-110 transition-transform">
                   <FaPlay className="text-2xl text-black ml-1" />
                 </div>
               </div>
@@ -52,7 +52,7 @@ const EducationTetrWay = () => {
                 </div>
               </div>
               <div className="flex-1 text-white">
-                <div className="text-[#ffd700] text-sm font-semibold mb-2 uppercase tracking-wide">
+                <div className="text-[#dc2626] text-sm font-semibold mb-2 uppercase tracking-wide">
                   Hands-On Pedagogy
                 </div>
                 <h3 className="text-3xl font-bold mb-4">
@@ -79,7 +79,7 @@ const EducationTetrWay = () => {
                 </div>
               </div>
               <div className="flex-1 text-white">
-                <div className="text-[#ffd700] text-sm font-semibold mb-2 uppercase tracking-wide">
+                <div className="text-[#dc2626] text-sm font-semibold mb-2 uppercase tracking-wide">
                   Learning in Action
                 </div>
                 <h3 className="text-3xl font-bold mb-4">

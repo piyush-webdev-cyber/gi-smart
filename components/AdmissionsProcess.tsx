@@ -25,7 +25,7 @@ const AdmissionsProcess = () => {
     <section id="admissions" className="py-24 bg-gradient-to-br from-[#0a1628] to-[#1a2332] relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-20 right-20 w-32 h-32 bg-[#ffd700] rounded"></div>
+        <div className="absolute top-20 right-20 w-32 h-32 bg-[#dc2626] rounded"></div>
         <div className="absolute bottom-40 left-20 w-24 h-24 bg-pink-500 rounded"></div>
       </div>
 
@@ -36,7 +36,7 @@ const AdmissionsProcess = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
               Apply for our September 2026 batch. <span className="font-extrabold">Get Started</span>
             </h2>
-            <button className="bg-[#ffd700] text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#ffed4e] transition-colors flex items-center gap-2">
+            <button className="bg-[#dc2626] text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-[#ffed4e] transition-colors flex items-center gap-2">
               APPLY NOW
               <FaExternalLinkAlt />
             </button>

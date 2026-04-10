@@ -218,7 +218,7 @@ const BAIDCurriculumSection = () => {
               transition={{ delay: term.id * 0.1 }}
               onClick={() => setActiveTerm(activeTerm === term.id ? null : term.id)}
               className={`bg-gradient-to-br from-[#0a1628] to-[#1a2332] rounded-lg p-6 cursor-pointer transition-all hover:shadow-xl ${
-                activeTerm === term.id ? 'ring-4 ring-[#ffd700]' : ''
+                activeTerm === term.id ? 'ring-4 ring-[#dc2626]' : ''
               }`}
             >
               <div className="flex items-center justify-between mb-4">
@@ -239,7 +239,7 @@ const BAIDCurriculumSection = () => {
                     {term.courses.map((course, idx) => (
                       <div key={idx} className="bg-white/10 rounded p-3">
                         <div className="flex items-start justify-between mb-1">
-                          <span className="text-[#ffd700] font-semibold text-sm">{course.code}</span>
+                          <span className="text-[#dc2626] font-semibold text-sm">{course.code}</span>
                           <span className="text-white/70 text-xs">{course.credits} Cr</span>
                         </div>
                         <p className="text-white text-sm leading-tight">{course.name}</p>

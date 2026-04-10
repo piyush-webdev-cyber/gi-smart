@@ -99,8 +99,8 @@ const SecondaryNav = () => {
                 onClick={() => scrollToSection(link.id)}
                 className={`transition-colors duration-300 text-sm font-medium uppercase tracking-wide whitespace-nowrap ${
                   activeSection === link.id
-                    ? 'text-[#ffd700]'
-                    : 'text-white hover:text-[#ffd700]'
+                    ? 'text-[#dc2626]'
+                    : 'text-white hover:text-[#dc2626]'
                 }`}
               >
                 {link.label}
@@ -108,7 +108,7 @@ const SecondaryNav = () => {
             ))}
           </div>
           <Link href="/admissions">
-            <button className="bg-[#ffd700] text-black px-4 py-2 rounded font-semibold text-sm hover:bg-[#ffed4e] transition-colors flex items-center gap-1 whitespace-nowrap">
+            <button className="bg-[#dc2626] text-black px-4 py-2 rounded font-semibold text-sm hover:bg-[#ffed4e] transition-colors flex items-center gap-1 whitespace-nowrap">
               APPLY NOW
               <FaExternalLinkAlt className="text-xs" />
             </button>

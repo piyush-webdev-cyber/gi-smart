@@ -67,7 +67,7 @@ const ProgramSpecializations = () => {
               onClick={() => setActiveSpecialization(spec.id)}
               className={`px-6 py-3 rounded-lg font-semibold transition-all ${
                 activeSpecialization === spec.id
-                  ? 'bg-[#ffd700] text-black'
+                  ? 'bg-[#dc2626] text-black'
                   : 'bg-white text-gray-900 border-2 border-gray-200'
               }`}
             >
@@ -101,10 +101,10 @@ const ProgramSpecializations = () => {
 
         {/* Navigation Arrows */}
         <div className="flex justify-center gap-4">
-          <button className="w-12 h-12 bg-[#ffd700] rounded-full flex items-center justify-center text-black font-bold">
+          <button className="w-12 h-12 bg-[#dc2626] rounded-full flex items-center justify-center text-black font-bold">
             ←
           </button>
-          <button className="w-12 h-12 bg-[#ffd700] rounded-full flex items-center justify-center text-black font-bold">
+          <button className="w-12 h-12 bg-[#dc2626] rounded-full flex items-center justify-center text-black font-bold">
             →
           </button>
         </div>

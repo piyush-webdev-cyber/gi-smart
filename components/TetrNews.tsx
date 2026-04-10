@@ -44,7 +44,7 @@ const TetrNews = () => {
             <button className="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center text-white transition-colors">
               ←
             </button>
-            <button className="w-12 h-12 bg-[#ffd700] hover:bg-[#ffed4e] rounded-lg flex items-center justify-center text-black transition-colors">
+            <button className="w-12 h-12 bg-[#dc2626] hover:bg-[#b91c1c] rounded-lg flex items-center justify-center text-white transition-colors">
               →
             </button>
           </div>
@@ -83,7 +83,7 @@ const TetrNews = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-[#ffd700] text-black px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 mx-auto hover:bg-[#ffed4e] transition-colors"
+              className="bg-[#dc2626] text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 mx-auto hover:bg-[#b91c1c] transition-colors"
             >
               VIEW MORE
               <FaExternalLinkAlt />

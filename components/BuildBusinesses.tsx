@@ -41,7 +41,7 @@ const BuildBusinesses = () => {
             <button className="w-12 h-12 bg-white border-2 border-gray-300 hover:bg-gray-50 rounded-lg flex items-center justify-center text-gray-600 transition-colors">
               ←
             </button>
-            <button className="w-12 h-12 bg-[#ffd700] hover:bg-[#ffed4e] rounded-lg flex items-center justify-center text-black transition-colors">
+            <button className="w-12 h-12 bg-[#dc2626] hover:bg-[#ffed4e] rounded-lg flex items-center justify-center text-black transition-colors">
               →
             </button>
           </div>

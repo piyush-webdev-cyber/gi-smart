@@ -225,7 +225,7 @@ const BBATourismCurriculumSection = () => {
               transition={{ delay: term.id * 0.1 }}
               onClick={() => setActiveTerm(activeTerm === term.id ? null : term.id)}
               className={`bg-[#8b1538] rounded-lg p-6 cursor-pointer transition-all hover:shadow-xl ${
-                activeTerm === term.id ? 'ring-4 ring-[#ffd700]' : ''
+                activeTerm === term.id ? 'ring-4 ring-[#dc2626]' : ''
               }`}
             >
               <div className="flex items-center justify-between mb-4">

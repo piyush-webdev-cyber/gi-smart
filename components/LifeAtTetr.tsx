@@ -87,7 +87,7 @@ const LifeAtTetr = () => {
                 whileTap={{ scale: 0.95 }}
                 className={`px-6 py-3 rounded-lg font-semibold transition-all capitalize ${
                   activeAcademicTab === tab
-                    ? 'bg-[#ffd700] text-black'
+                    ? 'bg-[#dc2626] text-black'
                     : 'bg-white/10 text-white hover:bg-white/20'
                 }`}
               >
@@ -231,7 +231,7 @@ const LifeAtTetr = () => {
                 <motion.div
                   initial={{ scale: 0 }}
                   whileHover={{ scale: 1.1 }}
-                  className="w-20 h-20 bg-[#ffd700] rounded-full flex items-center justify-center"
+                  className="w-20 h-20 bg-[#dc2626] rounded-full flex items-center justify-center"
                 >
                   <FaPlay className="text-2xl text-black ml-1" />
                 </motion.div>

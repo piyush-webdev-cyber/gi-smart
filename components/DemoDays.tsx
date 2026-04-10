@@ -76,7 +76,7 @@ const DemoDays = () => {
                 className="text-left group"
               >
                 <div className="text-gray-900 text-xl font-semibold mb-1">
-                  <span className={activeCategory === category.id ? 'underline decoration-[#ffd700] decoration-4' : ''}>
+                  <span className={activeCategory === category.id ? 'underline decoration-[#dc2626] decoration-4' : ''}>
                     {category.label}
                   </span>
                 </div>
@@ -109,7 +109,7 @@ const DemoDays = () => {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <motion.div
                     whileHover={{ scale: 1.1 }}
-                    className="w-16 h-16 bg-[#ffd700] rounded-full flex items-center justify-center shadow-lg opacity-0 group-hover:opacity-100 transition-opacity"
+                    className="w-16 h-16 bg-[#dc2626] rounded-full flex items-center justify-center shadow-lg opacity-0 group-hover:opacity-100 transition-opacity"
                   >
                     <FaPlay className="text-xl text-black ml-1" />
                   </motion.div>
