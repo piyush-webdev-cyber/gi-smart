@@ -4,8 +4,8 @@ import { motion } from 'framer-motion'
 
 const ProgramsHero = () => {
   return (
-    <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden pt-32 pb-16">
-      <div className="absolute inset-0 bg-gradient-radial opacity-50" />
+    <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden pt-32 pb-16 bg-gradient-to-br from-[#1e40af] to-[#1f2937]">
+      <div className="absolute inset-0 bg-black/30" />
       
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.h1

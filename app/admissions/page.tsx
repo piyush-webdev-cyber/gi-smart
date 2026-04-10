@@ -27,7 +27,7 @@ export default function AdmissionsPage() {
       </section>
 
       <ThreeStepProcess />
-      <MeetTheTribe />
+      {/* <MeetTheTribe /> */}
       <TetrInNews />
       <ScholarshipsDetailed />
       <Footer />

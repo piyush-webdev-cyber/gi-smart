@@ -29,7 +29,7 @@ const newsItems = [
 
 const TetrNews = () => {
   return (
-    <section className="py-24 bg-gradient-to-br from-[#0a1628] to-[#1a2332]">
+    <section className="py-24 bg-gradient-to-br from-[#dc2626] to-[#1f2937]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between mb-12">
           <motion.h2

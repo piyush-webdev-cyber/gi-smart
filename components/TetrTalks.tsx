@@ -39,7 +39,7 @@ const TetrTalks = () => {
               whileHover={{ y: -10 }}
               className="group cursor-pointer"
             >
-              <div className="relative aspect-video bg-gray-900 rounded-lg overflow-hidden mb-4">
+              <div className="relative aspect-video bg-gradient-to-br from-[#dc2626] to-[#1f2937] overflow-hidden mb-4">
                 <div
                   className="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
                   style={{ backgroundImage: `url(${video.image})` }}

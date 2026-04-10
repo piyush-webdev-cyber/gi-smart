@@ -114,7 +114,7 @@ const AboutHero = () => {
   }
 
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-[#0a1628] to-[#1a2332] pt-[125px] pb-24">
+    <section className="relative min-h-screen bg-gradient-to-br from-[#1e40af] to-[#1f2937] pt-[125px] pb-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Main Headline */}
         <motion.div
@@ -144,7 +144,7 @@ const AboutHero = () => {
                 onClick={() => scrollToSection(index)}
                 className={`${principle.color} p-6 md:p-8 rounded-lg cursor-pointer transform transition-all duration-300 relative ${
                   activeSection === principle.id 
-                    ? 'ring-4 ring-[#ffd700] shadow-2xl scale-[1.02]' 
+                    ? 'ring-4 ring-[#dc2626] shadow-2xl scale-[1.02]' 
                     : 'ring-0'
                 }`}
                 style={{ 
@@ -153,10 +153,10 @@ const AboutHero = () => {
               >
                 <div className="flex items-center justify-between relative">
                   <div className="flex-1 pr-4 z-10 relative">
-                    <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-[#8b1538] mb-1 md:mb-2">
+                    <h3 className="text-xl md:text-2xl lg:text-3xl font-bold text-[#dc2626] mb-1 md:mb-2">
                       {principle.title}
                     </h3>
-                    <p className="text-[#8b1538]/80 text-sm md:text-base lg:text-lg font-medium">
+                    <p className="text-[#dc2626]/80 text-sm md:text-base lg:text-lg font-medium">
                       {principle.subtitle}
                     </p>
                   </div>
@@ -188,7 +188,7 @@ const AboutHero = () => {
                     className="text-white"
                   >
                     {/* Label */}
-                    <div className="bg-gradient-to-br from-[#0a1628] to-[#1a2332] text-white px-4 py-1.5 rounded-md inline-block text-xs md:text-sm font-semibold mb-6">
+                    <div className="bg-gradient-to-br from-[#1e40af] to-[#1f2937] text-white px-4 py-1.5 rounded-md inline-block text-xs md:text-sm font-semibold mb-6">
                       {principle.content.label}
                     </div>
 

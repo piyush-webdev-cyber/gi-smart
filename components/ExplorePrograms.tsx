@@ -123,14 +123,14 @@ const ExplorePrograms = () => {
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
               whileHover={{ y: -10 }}
-              className="bg-gradient-to-br from-[#0a1628] to-[#1a2332] rounded-lg overflow-hidden group cursor-pointer border border-[#d4af37]/20 flex flex-col"
+              className="bg-gradient-to-br from-[#1e40af] to-[#1f2937] rounded-lg overflow-hidden group cursor-pointer border border-[#dc2626]/20 flex flex-col"
             >
               <div className="relative h-56 overflow-hidden flex-shrink-0">
                 <div
                   className="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
                   style={{ backgroundImage: `url(${program.image})` }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628] to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1f2937] to-transparent" />
               </div>
 
               <div className="p-5 md:p-6 text-white flex flex-col flex-1 h-full">
@@ -161,7 +161,7 @@ const ExplorePrograms = () => {
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="w-full bg-[#ffd700] text-black py-3 rounded font-semibold flex items-center justify-center gap-2 hover:bg-[#ffed4e] transition-colors text-sm"
+                      className="w-full bg-[#dc2626] text-white py-3 rounded font-semibold flex items-center justify-center gap-2 hover:bg-[#b91c1c] transition-colors text-sm"
                     >
                       LEARN MORE
                       <FaExternalLinkAlt className="text-xs" />
@@ -187,7 +187,7 @@ const ExplorePrograms = () => {
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
                 whileHover={{ y: -10 }}
-                className="bg-gradient-to-br from-[#0a1628] to-[#1a2332] rounded-lg overflow-hidden group cursor-pointer border border-[#d4af37]/20 flex flex-col flex-shrink-0"
+                className="bg-gradient-to-br from-[#1e40af] to-[#1f2937] rounded-lg overflow-hidden group cursor-pointer border border-[#dc2626]/20 flex flex-col flex-shrink-0"
                 style={{ 
                   width: 'calc((100% - 3rem) / 3)',
                   height: '650px'
@@ -198,7 +198,7 @@ const ExplorePrograms = () => {
                   className="w-full h-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
                   style={{ backgroundImage: `url(${program.image})` }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0a1628] to-transparent" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#1f2937] to-transparent" />
               </div>
 
               <div className="p-5 md:p-6 text-white flex flex-col flex-1 h-full">
@@ -229,7 +229,7 @@ const ExplorePrograms = () => {
                     <motion.button
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
-                      className="w-full bg-[#ffd700] text-black py-3 rounded font-semibold flex items-center justify-center gap-2 hover:bg-[#ffed4e] transition-colors text-sm"
+                      className="w-full bg-[#dc2626] text-white py-3 rounded font-semibold flex items-center justify-center gap-2 hover:bg-[#b91c1c] transition-colors text-sm"
                     >
                       LEARN MORE
                       <FaExternalLinkAlt className="text-xs" />
@@ -249,7 +249,7 @@ const ExplorePrograms = () => {
                 onClick={() => scrollToIndex(index)}
                 className={`h-2 rounded-full transition-all ${
                   index === currentIndex
-                    ? 'w-8 bg-[#ffd700]'
+                    ? 'w-8 bg-[#dc2626]'
                     : 'w-2 bg-gray-300 hover:bg-gray-400'
                 }`}
                 aria-label={`Go to slide ${index + 1}`}

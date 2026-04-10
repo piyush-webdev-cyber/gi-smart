@@ -30,13 +30,13 @@ const AboutTopHero = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="mb-6"
             >
-              <span className="text-[#ffd700] text-sm font-semibold uppercase tracking-wider">
+              <span className="text-[#dc2626] text-sm font-semibold uppercase tracking-wider">
                 About GI-SMART
               </span>
             </motion.div>
             
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              <span className="text-gradient">Learn to Build.</span>
+              <span className="text-[#ffd700]">Learn to Build.</span>
               <br />
               <span className="text-white italic">Build to Learn.</span>
             </h1>
@@ -60,7 +60,7 @@ const AboutTopHero = () => {
                 <motion.button
                   whileHover={{ scale: 1.05, y: -3 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-[#ffd700] text-black px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 hover:bg-[#ffed4e] transition-all duration-300"
+                  className="bg-[#dc2626] text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 hover:bg-[#b91c1c] transition-all duration-300"
                 >
                   EXPLORE PROGRAMS
                   <FaExternalLinkAlt />
@@ -71,7 +71,7 @@ const AboutTopHero = () => {
                 <motion.button
                   whileHover={{ scale: 1.05, y: -3 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-transparent border-2 border-white/30 text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 hover:border-white/60 hover:bg-white/10 transition-all duration-300"
+                  className="bg-[#dc2626] text-white px-8 py-4 rounded-lg font-bold text-lg flex items-center gap-2 hover:bg-[#b91c1c] transition-all duration-300"
                 >
                   JOIN US
                   <span>→</span>
@@ -92,7 +92,7 @@ const AboutTopHero = () => {
               <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1519085360753-af0119f7cbe7')] bg-cover bg-center" />
               
               {/* Overlay gradient */}
-              <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#1f2937] via-transparent to-transparent" />
               
               {/* Decorative border */}
               <div className="absolute inset-0 border-4 border-white/20 rounded-lg" />
@@ -103,9 +103,9 @@ const AboutTopHero = () => {
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, delay: 0.8 }}
-              className="absolute -bottom-6 -right-6 bg-gradient-to-br from-[#0a1628] to-[#1a2332] text-white p-6 rounded-lg shadow-2xl border border-white/20"
+              className="absolute -bottom-6 -right-6 bg-gradient-to-br from-[#1e40af] to-[#1f2937] text-white p-6 rounded-lg shadow-2xl border border-white/20"
             >
-              <div className="text-xs font-bold mb-1 text-[#ffd700]">AWARD WINNER</div>
+              <div className="text-xs font-bold mb-1 text-[#dc2626]">AWARD WINNER</div>
               <div className="text-sm font-semibold">QS Gold Winner: Most Innovative<br />Business School of 2025</div>
             </motion.div>
           </motion.div>
@@ -131,7 +131,7 @@ const AboutTopHero = () => {
               transition={{ duration: 0.6, delay: 0.8 + index * 0.1 }}
               className="text-center"
             >
-              <div className="text-4xl md:text-5xl font-bold text-[#ffd700] mb-2">
+              <div className="text-4xl md:text-5xl font-bold text-[#dc2626] mb-2">
                 {stat.number}
               </div>
               <div className="text-white/80 text-sm md:text-base">

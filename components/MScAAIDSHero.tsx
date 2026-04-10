@@ -6,9 +6,9 @@ import { FaExternalLinkAlt } from 'react-icons/fa'
 
 const MScAAIDSHero = () => {
   return (
-    <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden pt-[177px] pb-16 bg-gradient-to-b from-[#0a0a0a] to-[#0a1628]">
+    <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden pt-[177px] pb-16 bg-[#363636]">
       {/* Background Image Effect */}
-      <div className="absolute inset-0 opacity-20">
+      <div className="absolute inset-0 opacity-30">
         <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80')] bg-cover bg-center" />
       </div>
 
@@ -39,7 +39,7 @@ const MScAAIDSHero = () => {
                 <motion.button
                   whileHover={{ scale: 1.05, y: -3 }}
                   whileTap={{ scale: 0.95 }}
-                  className="bg-[#ffd700] text-black px-8 py-4 rounded-lg font-bold text-base md:text-lg flex items-center gap-2 hover:bg-[#ffed4e] transition-all duration-300"
+                  className="bg-[#dc2626] text-white px-8 py-4 rounded-lg font-bold text-base md:text-lg flex items-center gap-2 hover:bg-[#b91c1c] transition-all duration-300"
                 >
                   APPLY NOW
                   <FaExternalLinkAlt className="text-sm" />
@@ -48,7 +48,7 @@ const MScAAIDSHero = () => {
               <motion.button
                 whileHover={{ scale: 1.05, y: -3 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white text-black px-8 py-4 rounded-lg font-bold text-base md:text-lg hover:bg-gray-100 transition-all duration-300 flex items-center gap-2"
+                className="bg-[#dc2626] text-white px-8 py-4 rounded-lg font-bold text-base md:text-lg hover:bg-[#b91c1c] transition-all duration-300 flex items-center gap-2"
               >
                 DOWNLOAD BROCHURE
                 <FaExternalLinkAlt className="text-sm" />
@@ -70,8 +70,8 @@ const MScAAIDSHero = () => {
             </div>
             
             {/* Program Details Badge */}
-            <div className="absolute -right-4 bottom-4 bg-gradient-to-br from-[#0a1628] to-[#1a2332] border-2 border-[#ffd700] text-white p-4 rounded-lg shadow-lg max-w-[240px]">
-              <div className="text-xs font-bold mb-2 text-[#ffd700]">PROGRAM HIGHLIGHTS</div>
+            <div className="absolute -right-4 bottom-4 bg-gradient-to-br from-[#1e40af] to-[#1f2937] border-2 border-[#dc2626] text-white p-4 rounded-lg shadow-lg max-w-[240px]">
+              <div className="text-xs font-bold mb-2 text-[#dc2626]">PROGRAM HIGHLIGHTS</div>
               <div className="text-xs leading-tight space-y-1">
                 <div>3 Intakes per Year</div>
                 <div>Paris Mobility Option</div>

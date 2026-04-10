@@ -26,7 +26,7 @@ const TetrLaunchpad = () => {
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-[#ffd700] text-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base md:text-lg flex items-center justify-center lg:justify-start gap-2 hover:bg-[#ffed4e] transition-colors"
+                className="bg-[#dc2626] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-bold text-sm sm:text-base md:text-lg flex items-center justify-center lg:justify-start gap-2 hover:bg-[#b91c1c] transition-colors"
               >
                 LEARN MORE
                 <FaExternalLinkAlt />
@@ -46,7 +46,7 @@ const TetrLaunchpad = () => {
               <div className="absolute inset-0 flex items-center justify-center">
                 <motion.div
                   whileHover={{ scale: 1.1 }}
-                  className="w-20 h-20 bg-[#ffd700] rounded-full flex items-center justify-center shadow-lg"
+                  className="w-20 h-20 bg-[#dc2626] rounded-full flex items-center justify-center shadow-lg"
                 >
                   <FaPlay className="text-2xl text-black ml-1" />
                 </motion.div>

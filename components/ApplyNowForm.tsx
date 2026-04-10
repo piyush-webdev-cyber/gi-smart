@@ -935,7 +935,7 @@ const ApplyNowForm = () => {
             <button
               type="button"
               onClick={nextStep}
-              className="px-8 py-3 rounded-full font-semibold bg-gradient-to-b from-[#0a1628] to-[#8b1538] text-white hover:from-[#8b1538] hover:to-[#0a1628] transition-all duration-300 flex items-center gap-2"
+              className="px-8 py-3 rounded-full font-semibold bg-gradient-to-b from-[#dc2626] to-[#b91c1c] text-white hover:from-[#b91c1c] hover:to-[#dc2626] transition-all duration-300 flex items-center gap-2"
             >
               Next Step
               <FaExternalLinkAlt />
@@ -945,7 +945,7 @@ const ApplyNowForm = () => {
               type="button"
               disabled={submitting}
               onClick={handleSubmitButtonClick}
-              className="px-8 py-3 rounded-full font-semibold bg-gradient-to-b from-[#0a1628] to-[#8b1538] text-white hover:from-[#8b1538] hover:to-[#0a1628] transition-all duration-300 flex items-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed"
+              className="px-8 py-3 rounded-full font-semibold bg-gradient-to-b from-[#dc2626] to-[#b91c1c] text-white hover:from-[#b91c1c] hover:to-[#dc2626] transition-all duration-300 flex items-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed"
             >
               {submitting ? 'Submitting...' : 'Submit Application'}
               <FaExternalLinkAlt />

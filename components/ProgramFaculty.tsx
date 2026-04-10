@@ -90,7 +90,7 @@ const ProgramFaculty = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-[#ffd700] text-black px-8 py-3 rounded-lg font-semibold hover:bg-[#ffed4e] transition-colors flex items-center gap-2 mx-auto">
+          <button className="bg-[#dc2626] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#b91c1c] transition-colors flex items-center gap-2 mx-auto">
             VIEW MORE
             <FaExternalLinkAlt />
           </button>
