@@ -7,9 +7,17 @@ import Link from 'next/link'
 const AboutTopHero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-[125px] bg-gradient-to-b from-[#0a0a0a] to-[#0a1628]">
-      {/* Background Image Effect */}
+      {/* Background Video Effect */}
       <div className="absolute inset-0 opacity-20">
-        <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655')] bg-cover bg-center" />
+        <video
+          className="w-full h-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+        >
+          <source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />
+        </video>
       </div>
 
       {/* Animated gradient overlay */}

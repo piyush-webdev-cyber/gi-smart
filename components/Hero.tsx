@@ -7,9 +7,22 @@ import { FaExternalLinkAlt } from 'react-icons/fa'
 const Hero = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 sm:pt-24 md:pt-[125px] pb-12 sm:pb-16 md:pb-24">
-      {/* Background Image Effect */}
+      {/* Background Video Effect */}
       <div className="absolute inset-0">
-        <div className="w-full h-full bg-[url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655')] bg-cover bg-center" />
+        <video
+          className="w-full h-full object-cover"
+          autoPlay
+          muted
+          loop
+          playsInline
+          onError={(e) => {
+            console.error('Video failed to load:', e);
+            const videoElement = e.currentTarget;
+            videoElement.style.display = 'none';
+          }}
+        >
+          <source src="/main.mp4" type="video/mp4" />
+        </video>
         <div className="absolute inset-0 bg-black/50"></div>
       </div>
 
