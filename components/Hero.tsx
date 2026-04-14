@@ -103,6 +103,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { FaExternalLinkAlt } from 'react-icons/fa'
 
 const Hero = () => {
   return (
@@ -151,9 +152,10 @@ const Hero = () => {
             }}
             whileHover={{ scale: 1.05, y: -3 }}
             whileTap={{ scale: 0.95 }}
-            className="bg-[#dc2626] hover:bg-[#b91c1c] px-8 py-3 text-white font-semibold rounded-md transition"
+            className="bg-[#dc2626] hover:bg-[#b91c1c] px-8 py-3 text-white font-semibold rounded-md transition w-fit flex items-center justify-center gap-2"
           >
-            Apply Now
+            EXPLORE CURRICULUM
+            <FaExternalLinkAlt />
           </motion.button>
         </motion.div>
 
